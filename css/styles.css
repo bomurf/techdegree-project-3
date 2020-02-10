@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  color: white;
+  background-color: darkslategrey;
+  height: 75px;
+}
+
+.title {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.sign-up {
+  width: 92.5%;
+  margin: auto;
+  border-bottom: 4px solid black;
+}
+
+.form-title {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.pitch {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 0 5px;
+  color: lightslategray;
+  font-size: 1.1em;
+}
+
+container1 {
+  width: 95%;
+}
+
+fieldset {
+  border: none;
+  margin: 0;
+}
+
+.contact {
+}
+
+.contact-info {
+  color: grey;
+  margin: 0 auto;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 20px 0;
+}
+
+legend {
+  color: black;
+  font-weight: 900;
+  font-size: 1.2em;
+  padding-bottom: 20px;
+}
+
+.newsletter {
+  color: grey;
+  padding: 20px 0;
+}
+
+.texto {
+  margin: 20px 0 10px 0;
+}
+
+textarea {
+  width: 100%;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  border: none;
+}
+
+button {
+  background-color: lightseagreen;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  width: 92.5%;
+  margin: 20px 10px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  font-style: italic;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input,
+#state {
+  background-color: whitesmoke;
+  border: none;
+  height: 50px;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 0 20px;
+  border-radius: 5px;
+}
+
+#zip {
+  width: 50%;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder {
+  text-align: right;
+  color: lightgray;
+  font-style: italic;
+}
+
+select:required:invalid {
+  color: gray;
+}
+option[value=""][disabled] {
+  display: none;
+}
+option {
+  color: black;
+}
