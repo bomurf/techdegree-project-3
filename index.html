@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
     <title>Project 3</title>
   </head>
   <body>
@@ -115,19 +119,44 @@
       <form id="newsletter" class="newsletter">
         <fieldset>
           <legend>Newsletter</legend>
-          <p>Select the newsletters you would like to receive</p>
+          <!-- <p>Select the newsletters you would like to receive</p> -->
+          <label>Select the newsletters you would like to receive</label><br />
+          <input
+            type="checkbox"
+            id="html"
+            value="interest_html"
+            name="user_interest"
+            checked
+          />
+          <label class="checkbox" for="html">HTML News</label><br />
+          <input
+            type="checkbox"
+            id="css"
+            value="interest_css"
+            name="user_interest"
+          />
+          <label class="checkbox" for="css">CSS News</label><br />
+          <input
+            type="checkbox"
+            id="javascript"
+            value="interest_javascript"
+            name="user_interest"
+          />
+          <label class="checkbox" for="javascript">Javascript News</label><br />
 
-          <input type="checkbox" name="html" value="HTML" checked />
-          <label for="html">HTML News</label><br />
-          <input type="checkbox" name="css" value="CSS" />
-          <label for="css">CSS News</label><br />
-          <input type="checkbox" name="javascript" value="JAVASCRIPT" />
-          <label for="javascript">Javascript News</label>
+          <!-- <p>Newsletter format</p> -->
 
-          <p>Newsletter format</p>
-
-          <input type="radio" name="format" value="html" checked /> HTML<br />
-          <input type="radio" name="format" value="plain-text" /> Plain Text
+          <label>Newsletter format</label><br />
+          <input
+            class="radio"
+            type="radio"
+            name="format"
+            value="html"
+            checked
+          />
+          HTML<br />
+          <input class="radio" type="radio" name="format" value="plain-text" />
+          Plain Text
 
           <div class="texto">
             <p>Other topics you'd like to hear about</p>
