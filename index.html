@@ -44,7 +44,13 @@
             /><br />
 
             <label for="phone">Phone Number</label>
-            <input type="tel" id="phone" name="user_phone" /><br />
+            <input
+              type="tel"
+              id="phone"
+              name="user_phone"
+              maxlength="14"
+              placeholder="Required"
+            /><br />
 
             <label for="street-address">Street Address</label>
             <input type="text" id="street-address" name="user_address" /><br />
@@ -119,8 +125,9 @@
       <form id="newsletter" class="newsletter">
         <fieldset>
           <legend>Newsletter</legend>
-          <!-- <p>Select the newsletters you would like to receive</p> -->
-          <label>Select the newsletters you would like to receive</label><br />
+          <p>Select the newsletters you would like to receive</p>
+          <br />
+          <!-- <label>Select the newsletters you would like to receive</label><br /> -->
           <input
             type="checkbox"
             id="html"
@@ -142,7 +149,8 @@
             value="interest_javascript"
             name="user_interest"
           />
-          <label class="checkbox" for="javascript">Javascript News</label><br />
+          <label class="checkbox" for="javascript">Javascript News</label
+          ><br /><br />
 
           <!-- <p>Newsletter format</p> -->
 

@@ -44,6 +44,7 @@ header {
   width: 95%;
   margin: 5px auto;
   border-radius: 5px;
+  padding: 5px;
 }
 
 /* General elements */
@@ -130,12 +131,26 @@ input[type="number"]:focus {
   border: 2px solid blue;
 }
 
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="tel"]:hover,
+input[type="number"]:hover,
+#state:hover {
+  background-color: white;
+  transition: ease-in-out;
+}
+
+[type="checkbox"] + label {
+  display: inline-block;
+}
+
 #zip {
   width: 50%;
 }
 
 input[type="text"]::placeholder,
-input[type="email"]::placeholder {
+input[type="email"]::placeholder,
+input[type="tel"]::placeholder {
   text-align: right;
   color: lightgray;
   font-style: italic;
