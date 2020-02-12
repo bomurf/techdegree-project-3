@@ -224,7 +224,7 @@ option {
   }
 
   .group-2 {
-    width: 77%;
+    width: 98.5%;
     max-width: 600px;
     margin: auto;
   }
@@ -234,9 +234,9 @@ option {
     text-align: center;
     color: white;
     font-size: 20px;
-    width: 77%;
+    width: 100%;
     max-width: 600px;
-    margin: 20px 40px 20px 87.5px;
+    margin: 25px auto;
     padding: 20px;
     border-radius: 5px;
   }
