@@ -124,10 +124,12 @@ input[type="number"],
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="tel"]:focus,
-input[type="number"]:focus {
+input[type="number"]:focus,
+#state:focus {
   background-color: white;
   color: black;
   border: 2px solid blue;
+  transition: 0.4s ease-in-out;
 }
 
 input[type="text"]:hover,
