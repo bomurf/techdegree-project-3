@@ -136,11 +136,22 @@ input[type="tel"]:hover,
 input[type="number"]:hover,
 #state:hover {
   background-color: azure;
-  transition: ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 
 [type="checkbox"] + label {
   display: inline-block;
+  margin-left: 10px;
+}
+
+[type="radio"] + label {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+#plain-text {
+  margin-bottom: 20px;
 }
 
 #zip {

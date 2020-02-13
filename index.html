@@ -32,6 +32,7 @@
           id="name"
           name="user_name"
           placeholder="Required"
+          required
         /><br />
 
         <label for="mail">Email Address</label>
@@ -40,6 +41,7 @@
           id="mail"
           name="user_email"
           placeholder="Required"
+          required
         /><br />
 
         <label for="phone">Phone Number</label>
@@ -124,12 +126,12 @@
         <!-- <label>Select the newsletters you would like to receive</label><br /> -->
         <input
           type="checkbox"
-          id="html"
+          id="html-news"
           value="interest_html"
           name="user_interest"
           checked
         />
-        <label class="checkbox" for="html">HTML News</label><br />
+        <label class="checkbox" for="html-news">HTML News</label><br />
         <input
           type="checkbox"
           id="css"
@@ -149,15 +151,26 @@
         <!-- <p>Newsletter format</p> -->
 
         <label>Newsletter format</label><br />
-        <input class="radio" type="radio" name="format" value="html" checked />
-        HTML<br />
-        <input class="radio" type="radio" name="format" value="plain-text" />
-        Plain Text
+        <input
+          class="radio"
+          type="radio"
+          id="html"
+          name="format"
+          value="html"
+          checked
+        /><label for="html">HTML</label><br />
+        <input
+          class="radio"
+          type="radio"
+          id="plain-text"
+          name="format"
+          value="plain-text"
+        /><label for="plain-text">Plain Text</label><br />
 
-        <div class="texto">
+        <!-- <div class="texto">
           <p>Other topics you'd like to hear about</p>
-        </div>
-
+        </div> -->
+        <label for="requests">Other topics you'd like to hear about</label>
         <textarea
           name="user-requests"
           id="requests"
